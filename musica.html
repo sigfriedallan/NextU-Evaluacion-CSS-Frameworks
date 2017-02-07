@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width,user-scalable=no">
+    <title>Mi Blog de Musica</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel='stylesheet' href='css/estilosmusica.css'>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="page-logo col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <img class="logo-img" src="img/logo.png" alt="Logo">
+      </div>
+      <div class="redes-sociales col-lg-2 col-md-2 col-sm-2 col-xs-12">
+        <a href="https://www.facebook.com/" target="_blank"><img class="img-rounded img-social" src="img/fb.png"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img class="img-rounded img-social" src="img/ig.png"></a>
+        <a href="https://twitter.com/" target="_blank"><img class="img-rounded img-social" src="img/tt.png"></a>
+      </div>
+    </header>
+
+    <nav class="nav-bar">
+      <div class="column row">
+        <div class="button-group">
+          <a href="#" class="btn btn-default navbar-btn">Inicio</a>
+          <a href="#" class="btn btn-default navbar-btn">Artistas</a>
+          <a href="#" class="btn btn-default navbar-btn">Grupos</a>
+          <a href="#" class="btn btn-default navbar-btn">Top 10</a>
+          <a href="#" class="btn btn-default navbar-btn">Letras</a>
+          <a href="#" class="btn btn-default navbar-btn">Acordes</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container1 col-lg-9 col-md-9 col-sm-9 col-xs-12">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <p>
+            <strong>Cafe del Mar</strong> es un famoso Record Label de musica Lounge, que comenzo como un bar llamado Cafe del Mar, ubicado en Ibiza.
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img class="blog-img" src="img/cafedelmar.jpg" alt="cafe del mar">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="Comentario">Comentario</label>
+        <span class="glyphicon glyphicon-user"></span>
+        <textarea name="comentario" class="form-control comentario"></textarea>
+      </div>
+      </br>
+      </br>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img class="blog-img" src="img/suicidesheep.jpg" alt="suicide sheep">
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <p>
+            Es un canal de youtube donde podrás encontrar una gran variedad de musica electronica diferente y aveces no-electronica. Se enfocan en encontrar la major y más motivante musica para escuchar en reuniones sociales o solos.
+          </p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="Comentario">Comentario</label>
+        <span class="glyphicon glyphicon-user"></span>
+        <textarea name="comentario" class="form-control comentario"></textarea>
+      </div>
+    </div>
+
+    <div class="container2 col-lg-2 col-md-2 col-sm-2">
+      <form>
+      <div class="row">
+        <div class="column busqueda">
+          <label>
+            <input class="buscar form-group" type="text" name="buscar" placeholder="">
+          </label>
+          <h4>Buscar</h4>
+        </div>
+      </div>
+      </br>
+      <div class="row">
+        <div class="row column busqueda_por">
+          <h4>Busqueda Avanzada</h4>
+          <label>Por nombre del almbum:
+            <input type="text" name="name">
+          </label>
+        </div>
+        <div class="row column busqueda_por">
+          <label>Por categoria:</label>
+            <select>
+              <option>Todo</option>
+              <option>Deep House</option>
+              <option>Longe</option>
+              <option>House</option>
+            </select>
+        </div>
+        </br>
+        <div class="row column busqueda_por">
+          <fieldset>
+            <legend><h4>Tipo de formato:</h4></legend>
+            <input type="checkbox" id="nuevo-check"><label for="checkbox1">mp3</label>
+            <input type="checkbox" id="nuevo-check"><label for="checkbox2">mp4</label>
+          </fieldset>
+        </div>
+        </br>
+        <div class="row column busqueda_por">
+          <fieldset>
+            <legend><h4>Por artista:</h4></legend>
+            <label><input type="radio" name="artista" value="red" id="cafe del mar">Cafe del Mar</label>
+            <label><input type="radio" name="artista" value="blue" id="suicide sheep">Suicide Sheep</label>
+          </fieldset>
+        </div>
+        <div class="row column text-center busqueda_por">
+          <hr>
+          <button type="submit" name="enviar" class="button">Buscar</button>
+        </div>
+      </div>
+      </form>
+    </div>
+  </body>
+</html>
